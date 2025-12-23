@@ -1,0 +1,23 @@
+# Build outputs
+engine_app
+*.o
+*.out
+*.a
+*.so
+
+# WASM build
+wasm/build/
+wasm/*.js
+wasm/*.wasm
+
+# Tools scripts outputs
+tools/*.log
+
+# Temporary editor files
+*.swp
+*.tmp
+*.DS_Store
+
+# Pseudocode / compiled experiments
+docs/*.compiled
+
