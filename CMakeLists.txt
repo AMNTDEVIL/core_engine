@@ -12,6 +12,7 @@ add_compile_options(-Wall -Wextra -g)
 set(ENGINE_SOURCES
     engine/src/engine.c
     engine/include/math/vectors/2Dvector/2Dvector.c
+    engine/include/math/vectors/3Dvector/3Dvector.c
 )
 
 add_library(engine STATIC ${ENGINE_SOURCES})
@@ -28,3 +29,8 @@ target_link_libraries(2Dtests1 PRIVATE engine)
 
 enable_testing()
 add_test(NAME Vec2Tests COMMAND 2Dtests1)
+
+#for 3D
+add_executable(3Dtests1 tests/3Dvector_tests/3Dtests1.c)
+target_link_libraries(3Dtests1 PRIVATE engine)
+add_test(NAME Vec3Tests COMMAND 3Dtests1)
