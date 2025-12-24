@@ -3,11 +3,7 @@
 
 #include <math.h>
 
-typedef struct threeDvector {
-    float x;
-    float y;
-    float z;
-} Vec3;
+#include "entities/Vec3.h"
 
 Vec3 vec3_add(Vec3 a, Vec3 b);
 

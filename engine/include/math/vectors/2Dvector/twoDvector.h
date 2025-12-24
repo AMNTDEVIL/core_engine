@@ -1,11 +1,6 @@
 #ifndef TWODVECTOR_H
 #define TWODVECTOR_H
-
-// Typedef the struct directly (more common and cleaner)
-typedef struct {
-    float x;
-    float y;
-} Vec2;
+#include "Vec2_models.h"
 
 // Vector operations
 Vec2 vec2_add(Vec2 a, Vec2 b);

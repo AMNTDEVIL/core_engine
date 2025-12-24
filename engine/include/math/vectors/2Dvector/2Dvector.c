@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "twoDvector.h"
+#include "Vec2_models.h"
 #include <math.h>
+
 //Addition of 2 vectors
 Vec2 vec2_add(Vec2 a, Vec2 b){
     Vec2 result;

@@ -30,6 +30,7 @@ Magnitude of vector a (2,3): 3.61
 Magnitude of (3,4): 5.0
 Normalized (3,4): (0.600, 0.800)  [length should be ~1.0]
 (check length: 1.000)
+
 ### 3D Vector Math (`Vec3`)
 
 Implemented operations:
